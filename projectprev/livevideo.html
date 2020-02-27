@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href=".\images\logo.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link  rel="stylesheet" href="jquery/jquery.fancybox.min.css">
+    <style>
+    body{
+        background-color: #d3d3d317;
+    }
+    iframe{
+        margin-left: 10px
+    }
+    h4{
+        font-size: 20px;
+        color: lightseagreen;
+        word-spacing: 4px;
+        letter-spacing: 4px;
+    }
+    main{
+      display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    }
+    </style>
+    <title>LIVE VIDEO</title>
+</head>
+<body>
+    <marquee><h4>LIVE IS AVAILABLE NOW</h4></marquee>
+ <!-- <iframe width="430" height="315" src="https://www.youtube.com/embed/QafsHqRPDAU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></a>
+    <iframe width="430" height="315" src="https://www.youtube.com/embed/xAXd706_yWU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="430" height="315" src="https://www.youtube.com/embed/9DPkf3DGFpc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+
+    
+    -->
+<main>
+  
+   <a data-fancybox="gs"  href="https://www.youtube.com/embed/QafsHqRPDAU" ><img src="images/video2.png" alt="img"></a>
+   <a data-fancybox="gs"  href="https://www.youtube.com/embed/xAXd706_yWU" ><img src="images/video3.png" alt="img"></a>
+   <a data-fancybox="gs"  href="https://www.youtube.com/embed/9DPkf3DGFpc" ><img src="images/video1.png" alt="img"></a>
+   
+   
+   
+</main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="jquery/jquery.fancybox.min.js"></script>
+<script>
+$('[data-fancybox="gs"]').fancybox({
+	thumbs : {
+		loop: true
+    },
+    buttons: [
+    "zoom",
+    "share",
+    "fullScreen",
+    "slideShow",
+    "download",
+    "close"
+  ],
+  animationEffect: "zoom",
+});
+
+
+</script>
+</body>
+</html>
